@@ -1,11 +1,5 @@
 # bookstore_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
 Book Store App UI using Flutter
 
 Architecture diagram of the widget using Mermaid Chart: bookstore_app/hierarchy diagram.png
