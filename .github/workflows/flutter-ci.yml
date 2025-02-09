@@ -1,0 +1,37 @@
+name: Flutter Build Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 'stable'
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Run Flutter Analyzer
+        run: flutter analyze
+
+      - name: Run Flutter Tests
+        run: flutter test
+
+      - name: Build Flutter App (Android)
+        run: flutter build apk
+
+      - name: Build Flutter App (Web)
+        run: flutter build web
