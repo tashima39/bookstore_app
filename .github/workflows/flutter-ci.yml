@@ -19,10 +19,19 @@ jobs:
       - name: Set Up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.7.0'   # Explicit version (adjust to your needs)
+          flutter-version: '3.10.0'  # Use the latest Flutter version that supports Dart 3.x
+
+      - name: Upgrade Flutter and Dart SDK
+        run: flutter upgrade
+
+      - name: Ensure Stable Channel
+        run: flutter channel stable
 
       - name: Install Dependencies
         run: flutter pub get
+
+      - name: Print Flutter Version
+        run: flutter --version
 
       - name: Run Flutter Analyzer
         run: flutter analyze
