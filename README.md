@@ -1,15 +1,16 @@
-# bookstore_app
-Book Store App UI using Flutter
+# book_store
 
-Architecture diagram of the widget using Mermaid Chart
+A new Flutter project.
 
-Link to the Figma Prototype: 
+## Getting Started
 
-https://www.figma.com/design/MjDv6mFoTNkAS1ARc3JCI0/book_store?node-id=0-1&t=ZIyuT4EW1tCI0idG-1
+This project is a starting point for a Flutter application.
 
-https://www.figma.com/proto/MjDv6mFoTNkAS1ARc3JCI0/book_store?page-id=0%3A1&node-id=2-28&p=f&viewport=200%2C125%2C0.53&t=wQDwwQ6yazeST8c7-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2
+A few resources to get you started if this is your first Flutter project:
 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
