@@ -1,4 +1,4 @@
-# book_store
+# bookstore_app
 
 A new Flutter project.
 
@@ -6,11 +6,12 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Book Store App UI using Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Architecture diagram of the widget using Mermaid Chart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Link to the Figma Prototype:
+
+https://www.figma.com/design/MjDv6mFoTNkAS1ARc3JCI0/book_store?node-id=0-1&t=ZIyuT4EW1tCI0idG-1
+
+https://www.figma.com/proto/MjDv6mFoTNkAS1ARc3JCI0/book_store?page-id=0%3A1&node-id=2-28&p=f&viewport=200%2C125%2C0.53&t=wQDwwQ6yazeST8c7-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2
