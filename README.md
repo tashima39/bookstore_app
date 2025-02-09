@@ -8,7 +8,7 @@ This project is a starting point for a Flutter application.
 
 Book Store App UI using Flutter
 
-# Architecture diagram of the widget using Mermaid Chart: bookstore_app/hierarchy diagram.png
+Architecture diagram of the widget using Mermaid Chart: bookstore_app/hierarchy diagram.png
 
 Link to the Figma Prototype:
 
